@@ -2,6 +2,11 @@ body {
   background-color: lightblue;
 }
 
+#header {
+  text-align: center;
+  text-shadow: 2px 1px 0px rgba(0, 0 , 0, 0.5);
+  text-transform: uppercase;
+}
 
 #container {
 height: 1080px;
@@ -19,15 +24,15 @@ grid-template-areas:
 'quest quest'
 'choice choice'
 'footer footer';
-
 }
 
 #Question{
   border: 1px solid white;
   background-color: white;
-  padding: 5px;
+  padding-left: 15px;
+  grid-template: 'quest';
   text-align: center;
-  grid-template: 'quest'
+  box-shadow: 0px 3px 3px rgba( 0, 0, 0, 0.75);
 }
 
 #choices {
@@ -35,5 +40,18 @@ grid-template-areas:
   border: 1px solid white;
   padding: 10px; 
   background-color: white;
-  grid-template: 'choice'
+  grid-template: 'choice';
+  box-shadow: 0px 3px 3px rgba( 0, 0, 0, 0.75);
+}
+
+#submit {
+  padding: 10px;
+}
+
+#help {
+  padding: 10px;
+}
+
+#popup {
+  display: none;
 }

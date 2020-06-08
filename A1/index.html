@@ -9,12 +9,13 @@
  
   <body>             
     <div class="container">
-      <div id = "header"></div>
+      <div id = "header"><h1>Anime Trivia Game</h1></div>
      <br>
        <!-- Questions Section -->
        <div id ="Question">
         <h3>Question 1 | What anime contains a character named Light [Hint: Starts with D]</h3>
      </div>
+     <br>
      <!-- Choices Section-->
     <div id ="choices">
         <table id ="choiceTable">
@@ -29,7 +30,12 @@
     </div>
     <br>
     <!-- Next Page Button-->
-    <div id = "options"><button id ="submit" onClick="nextQuestion();">Next question</button></div>
+    <div id = "options"><button id ="submit" onClick="nextQuestion();">Next question</button>
+      <br><br>
+    <form action = "help.html">
+    <input id = "help" type = "submit" value = "Help"/>
+    </form>
+    </div>
   </div>
 </body>
 </html>
