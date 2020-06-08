@@ -4,15 +4,16 @@
   <title>Trivia Game</title>
   <link rel = "stylesheet" type = "text/css" href = "css/style.css"> 
   <script src = "js/trivia.js"></script>
-
 </head>
 <body>
  
   <body>             
     <div class="container">
-      <!-- Questions Section -->
-      <div id ="Question">
-        <h3>Question 1 | What anime contains a character named Light</h3>
+      <div id = "header"></div>
+     <br>
+       <!-- Questions Section -->
+       <div id ="Question">
+        <h3>Question 1 | What anime contains a character named Light [Hint: Starts with D]</h3>
      </div>
      <!-- Choices Section-->
     <div id ="choices">
@@ -21,12 +22,12 @@
        
             <tr><td><input type="radio" name = "choice" ></td><td id ="optionB">Death Note</td></tr>
        
-            <tr><td><input type="radio" name = "choice" ></td><td id ="optionC">Dragon Ball</td></tr>
+            <tr><td><input type="radio" name = "choice" ></td><td id ="optionC">Jo Jo Bizarre Adventures</td></tr>
 
             <tr><td><input type="radio" name = "choice"></td><td id ="optionD">Pokemon</td></tr>
         </table>
     </div>
-
+    <br>
     <!-- Next Page Button-->
     <div id = "options"><button id ="submit" onClick="nextQuestion();">Next question</button></div>
   </div>

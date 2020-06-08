@@ -1,3 +1,39 @@
-#score {
-  display: hidden;
+body {
+  background-color: lightblue;
+}
+
+
+#container {
+height: 1080px;
+width: 1920px;
+display: grid;
+position: fixed;
+top:0;
+bottom: 0;
+right: 0;
+left: 0;
+background-color: white;
+z-index: 2;
+grid-template-areas:
+'header header'
+'quest quest'
+'choice choice'
+'footer footer';
+
+}
+
+#Question{
+  border: 1px solid white;
+  background-color: white;
+  padding: 5px;
+  text-align: center;
+  grid-template: 'quest'
+}
+
+#choices {
+  justify-self: center;
+  border: 1px solid white;
+  padding: 10px; 
+  background-color: white;
+  grid-template: 'choice'
 }
