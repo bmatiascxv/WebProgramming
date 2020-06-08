@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trivia Game</title>
+  <link rel = "stylesheet" type = "text/css" href = "css/style.css"> 
+  <script src = "js/trivia.js"></script>
+
+</head>
+<body>
+ 
+  <body>             
+    <div class="container">
+      <!-- Questions Section -->
+      <div id ="Question">
+        <h3>Question 1 | What anime contains a character named Light</h3>
+     </div>
+     <!-- Choices Section-->
+    <div id ="choices">
+        <table id ="choiceTable">
+            <tr><td><input type="radio" name = "choice"></td><td id ="optionA">Full Metal Panic</td></tr>
+       
+            <tr><td><input type="radio" name = "choice" ></td><td id ="optionB">Death Note</td></tr>
+       
+            <tr><td><input type="radio" name = "choice" ></td><td id ="optionC">Dragon Ball</td></tr>
+
+            <tr><td><input type="radio" name = "choice"></td><td id ="optionD">Pokemon</td></tr>
+        </table>
+    </div>
+
+    <!-- Next Page Button-->
+    <div id = "options"><button id ="submit" onClick="nextQuestion();">Next question</button></div>
+  </div>
+</body>
+</html>
