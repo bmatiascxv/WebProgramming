@@ -1,13 +1,13 @@
 body {
   background-color: lightblue;
 }
-
+/* Header Container Properties */
 #header {
   text-align: center;
   text-shadow: 2px 1px 0px rgba(0, 0 , 0, 0.5);
   text-transform: uppercase;
 }
-
+/* Container Properties */
 #container {
 height: 1080px;
 width: 1920px;
@@ -25,7 +25,7 @@ grid-template-areas:
 'choice choice'
 'footer footer';
 }
-
+/* Question Properties*/
 #Question{
   border: 1px solid white;
   background-color: white;
@@ -35,6 +35,7 @@ grid-template-areas:
   box-shadow: 0px 3px 3px rgba( 0, 0, 0, 0.75);
 }
 
+/* Choice Propeties */
 #choices {
   justify-self: center;
   border: 1px solid white;
@@ -44,14 +45,11 @@ grid-template-areas:
   box-shadow: 0px 3px 3px rgba( 0, 0, 0, 0.75);
 }
 
+/* Button Properties */
 #submit {
   padding: 10px;
 }
 
 #help {
   padding: 10px;
-}
-
-#popup {
-  display: none;
 }

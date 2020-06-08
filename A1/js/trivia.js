@@ -1,5 +1,7 @@
-var questionCounter = 0;
-var scoreCounter = 1;
+// Benjamin Matias | 991591184 | Trafalgar //
+
+var questionCounter = 0; // counts the amount of questions
+var scoreCounter = 1; // Score counter
 
 // Function called nextQuestion that goes up increments when the Next Question button is clicked //
 function nextQuestion(){
