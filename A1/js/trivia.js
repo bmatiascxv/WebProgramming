@@ -32,11 +32,10 @@ function nextQuestion(){
     document.getElementById("Question").innerHTML = "<h2>Score: " + scoreCounter + "</h2>";
     document.getElementById("submit").innerHTML = "Play Again"; 
     questionCounter++;
-    document.getElementById("choiceTable").style.visibility = "hidden";
+    document.getElementById("choices").style.visibility = "hidden";
+    document.getElementById("choiceTable").style.visibility = "none";
   }    
   else if(questionCounter === 4){
       location.reload(); // Reloads the page
   }
 }
-
-
