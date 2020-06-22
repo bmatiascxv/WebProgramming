@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>TIK TAK TOE GAME</title>
+  <title>TIC TAC TOE GAME</title>
   <link rel ="stylesheet" type = "text/css" href = "css/style.css">
-  <script src = "js/javascript.js"></script>
 </head>
 
 <body>
+<!-- Title -->
+<header>   
+  <h1>Tic-Tac-Toe!</h1>
+</header>
 
+<!-- Game Board  -->
+<center>
+<div id = "gameBoard">
+<table>
+ <tr>
+   <td id='space0' onClick="cellClicked(0);"></td>
+   <td id='space1' onClick="cellClicked(1);"></td>
+   <td id='space2' onClick="cellClicked(2);"></td>
+ </tr>
+ <tr>
+   <td id='space3' onClick="cellClicked(3);"></td>
+   <td id='space4' onClick="cellClicked(4);"></td>
+   <td id='space5' onClick="cellClicked(5);"></td>
+ </tr>
+ <tr>
+   <td id='space6' onClick="cellClicked(6);"></td>
+   <td id='space7' onClick="cellClicked(7);"></td>
+   <td id='space8' onClick="cellClicked(8);"></td>
+ </tr>
+</table>
+</div></center>
+<!-- Player Information and Reset Button -->
+<center><p id = "currentPlayer">Player <span id="player">X</span>'s Turn</p></center>
+ <button id="reset">Reset Game</button>
+
+
+<!-- Footer -->
+<footer>
+  <br>
+  Benjamin Matias | 991 591 184 | Trafalgar
+</footer>
+
+<!-- Winning Results -->
+<div id="message">
+    <p>GAME OVER!</p>
+    <h3 id="winning_player"></h3>
+ <p>&mdash;click anywhere in the box to dismiss this message&mdash;</p>
+</div>
+<div id="overlay"></div>
+<script src = "js/javascript.js"></script>
+   </body>
+</html>
 
 
 
