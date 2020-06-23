@@ -70,11 +70,11 @@ function checkWin() {
     }
 
   
-    if(empty_cells < 0){
+    if(empty_cells == 0 || empty_cells < 0){
     gameOver = true; // Boolean changed from false to true indicating game is over
     document.getElementById('winning_player').innerHTML = "Game is Draw"; // Displays Game is a Draw
     displayWin(true); // Calls the displayWin() function
-    }
+    } 
     
 }
 
