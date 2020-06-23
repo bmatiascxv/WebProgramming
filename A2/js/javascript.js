@@ -45,7 +45,7 @@ function cellClicked(cell) {
 
     var selected_cell = document.querySelectorAll('td');
     // 1. decreases # of empty cells by 1 //
-    if(empty_cells > 0 && selected_cell[cell].innerHTML == '' && gameOver != true){  
+    if(empty_cells > 0 && selected_cell[cell].innerHTML == "" && gameOver != true){  
         selected_cell[cell].innerHTML= player;        
         empty_cells -=1;
     cell.innerHTML = player;
